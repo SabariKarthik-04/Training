@@ -1,12 +1,11 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        String inputInString = Integer.toString(x);
-        String reversed = inputInString.chars()
-                            .mapToObj(c -> (char)c)
-                            .reduce("", (s,c) -> c+s, (s1,s2) -> s2+s1);
-        if(inputInString.equals(reversed)){
-            return true;
-        }
-        return false;
+        if(x<0) return false;
+        return x==rev(x,0);
+    }
+    int rev(int x,int res){
+        if(x==0) return res;
+        res=(res*10)+(x%10);
+        return rev(x/10,res);
     }
 }
