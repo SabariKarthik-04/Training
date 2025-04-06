@@ -6,6 +6,7 @@ class Solution {
             res = res*10 +dig;
             x=x/10;
         }
-        return (res < Integer.MIN_VALUE || res > Integer.MAX_VALUE)?0:(int)res;
+        int r =(res < Integer.MIN_VALUE || res > Integer.MAX_VALUE)?0:(int)res;
+        return r;
     }
 }
