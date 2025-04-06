@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/SabariKarthik-04/Training/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/SabariKarthik-04/Training/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/SabariKarthik-04/Training/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/SabariKarthik-04/Training/tree/master/0069-sqrtx) |
 ## Recursion
 |  |
 | ------- |
@@ -48,4 +49,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/SabariKarthik-04/Training/tree/master/0048-rotate-image) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/SabariKarthik-04/Training/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
